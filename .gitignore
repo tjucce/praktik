@@ -2,3 +2,5 @@ venv/
 .idea
 __pycache__/
 street_view/get_points.py
+.h5
+street_view/images.py
