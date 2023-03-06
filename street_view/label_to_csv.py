@@ -64,6 +64,8 @@ def move_image(image):
             label = 'city'
         elif label == 'm':
             label = 'mountain'
+        elif label == 'i':
+            label = 'inconclusive'
         old_path = f'C:/projekt/praktik/street_view/{image}'
         new_path = f'C:/projekt/praktik/street_view/train_data/{label}/{image}'
         if os.path.exists(f'C:/projekt/praktik/street_view/train_data/{label}'):
